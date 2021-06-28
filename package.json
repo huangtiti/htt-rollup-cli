@@ -3,6 +3,9 @@
   "version": "1.3.0",
   "description": "htt rollup cli",
   "main": "index.js",
+  "bin":{
+    "htt-rollup-cli":"./index.js"
+  },
   "scripts": {
     "postversion": "git push --follow-tags",
     "version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md",
