@@ -1,0 +1,22 @@
+{
+  "name": "htt-rollup-cli",
+  "version": "1.0.0",
+  "description": "htt rollup cli",
+  "main": "index.js",
+  "scripts": {
+    "version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "huangtingting",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "commander": "^8.0.0",
+    "curl": "^0.1.4",
+    "download-git-repo": "^3.0.2",
+    "fs": "0.0.1-security",
+    "handlebars": "^4.7.7",
+    "inquirer": "^8.1.1",
+    "ora": "^5.4.1"
+  }
+}
