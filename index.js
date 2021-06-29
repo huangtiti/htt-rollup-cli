@@ -21,7 +21,7 @@ program
     ]).then((answers) => {
       const lqProcess = ora('正在创建rollup模版...')
       lqProcess.start()
-      download('github:huangtiti/rollup-demo#master',
+      download('https://github.com/huangtiti/rollup-demo.git',
         name, { clone: true }, (err) => {
         if (err) {
           lqProcess.fail('报错啦！！',chalk.red(err));
