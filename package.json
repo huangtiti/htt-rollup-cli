@@ -1,6 +1,6 @@
 {
   "name": "htt-rollup-cli",
-  "version": "1.5.1",
+  "version": "1.5.2",
   "description": "htt rollup cli",
   "main": "index.js",
   "bin": {
@@ -12,7 +12,6 @@
   },
   "scripts": {
     "postversion": "git push --follow-tags",
-    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -w -r 0",
     "test": "echo \"Error: no test specified\" && exit 1",
     "release": "standard-version",
     "commit": "git-cz"
