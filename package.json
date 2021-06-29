@@ -13,8 +13,8 @@
   "scripts": {
     "postversion": "git push --follow-tags",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "release": "standard-version",
-    "commit": "git-cz"
+    "release": "standard-version --prerelease alpha",
+    "commitmsg": "commitlint -E HUSKY_GIT_PARAMS"
   },
   "author": "huangtingting",
   "husky": {
