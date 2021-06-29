@@ -1,6 +1,6 @@
 {
   "name": "htt-rollup-cli",
-  "version": "1.6.0",
+  "version": "1.6.1",
   "description": "htt rollup cli",
   "main": "index.js",
   "bin": {
