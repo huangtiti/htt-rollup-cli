@@ -6,11 +6,15 @@
   "bin": {
     "htt-rollup-cli": "./index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/huangtiti/htt-rollup-cli.git"
+  },
   "scripts": {
-    "postversion": "git push --follow-tags",
+    "postversion": "git push",
     "version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "commit": "git-cz"
+    "release": "standard-version"
   },
   "author": "huangtingting",
   "husky": {
@@ -44,6 +48,7 @@
     "@commitlint/config-conventional": "^12.1.4",
     "commitizen": "^4.2.4",
     "cz-conventional-changelog": "^3.3.0",
-    "husky": "^6.0.0"
+    "husky": "^6.0.0",
+    "standard-version": "^9.3.0"
   }
 }
