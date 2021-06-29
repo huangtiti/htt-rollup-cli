@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.6.3](https://github.com/huangtiti/htt-rollup-cli/compare/v1.6.2...v1.6.3) (2021-06-29)
+
+
+### Bug Fixes
+
+* change github url ([25ff028](https://github.com/huangtiti/htt-rollup-cli/commit/25ff02844affcad910d8896222561ec617d877ca))
+
 ### [1.6.2](https://github.com/huangtiti/htt-rollup-cli/compare/v1.6.1...v1.6.2) (2021-06-29)
 
 
