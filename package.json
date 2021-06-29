@@ -1,6 +1,6 @@
 {
   "name": "htt-rollup-cli",
-  "version": "1.4.1",
+  "version": "1.5.0",
   "description": "htt rollup cli",
   "main": "index.js",
   "bin": {
@@ -14,7 +14,8 @@
     "postversion": "git push",
     "version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "release": "standard-version"
+    "release": "standard-version",
+    "commit": "git-cz"
   },
   "author": "huangtingting",
   "husky": {
